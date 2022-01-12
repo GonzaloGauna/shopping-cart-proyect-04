@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://fm-single-price-grid-component-gonzalo-gauna.netlify.app/)
+- Live Site URL: [Live Site](https://gonzalogauna-shopping-cart-proyect-04.netlify.app/#)
 
 ## My process
 
