@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --font-shadows: 'Shadows Into Light', cursive;
+    --font-roboto: 'Roboto', sans-serif;
+}
+
+.main-container {
+    background-color: #FEECE9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.card {
+    max-width: 400px;
+    border: 2px solid #F7F7F7;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(224,0,0);
+    background: linear-gradient(180deg, rgba(224,0,0,1) 0%, rgba(104,29,35,1) 100%);}
+
+.card img {
+    width: 95%;
+    border-radius: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container h4 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: var(--font-roboto);
+    margin: 2rem 0;
+    display: flex;
+}
+
+.info-container h4 span {
+    font-size: 3rem;
+}
+
+.info-container a {
+    align-self: center;
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 1px solid #181D31;
+    border-radius: 20px;
+    color: #1F1D36;
+    font-family: var(--font-shadows);
+    background-color: #FFC900;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+}
+
+.cart-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.cart-container h1 {
+    font-family: var(--font-shadows);
+    font-size: 5rem;
+    margin: 0 0 1rem 0;
+}
+.cart-container hr {
+    width: 500px;
+}
+.cart-container table {
+    margin: 1rem;
+}
+.cart-container th {
+    font-size: 2rem;
+    margin: 0 2rem;
+    width: 18rem;
+}
+.carrito {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.carrito tbody td {
+    text-align: center;
+    font-family: var(--font-roboto);
+    color: #1F1D36;
+    font-size: 2rem;
+}
+.borrar-producto {
+    text-decoration: none;
+    color: #1F1D36;
+    background-color: red;
+    border-radius: 50%;
+    padding: .5rem 1rem;
+}
+.vaciar-carrito {
+    text-decoration: none;
+    font-family: var(--font-roboto);
+    font-size: 2rem;
+    color: black;
+    background-color: #FF5959;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+}
